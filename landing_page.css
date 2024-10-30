@@ -1,0 +1,283 @@
+*{  margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(241, 208, 208);
+}
+
+#lo{
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(45, 160, 22);
+}
+
+.immediate_access{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.immediate_access a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.immediate_access a:hover{
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 5px 5px 8px darkgray , -3px 0px 8px darkgray;
+}
+
+.navigation_link_bar{
+    height: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(225, 235, 235);
+}
+
+.navigation_link_bar a{
+    list-style-type: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation_link_bar a:hover{
+    color: red;
+    background-color: rgb(151, 160, 160);
+    
+}
+
+.image{
+    width: 90%;
+    height: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.award_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.award_section img{
+    width: 15%;
+    height: 15%;
+    margin-top: 50px;
+}
+
+.para{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.para h3{
+    width: 800px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+.para p{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.service_providing_image{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.service_providing_image img{
+    width: 315px;
+    height: 230px;
+    margin: 30px;
+    box-sizing: border-box;
+    outline: solid red 6px;
+    border-radius: 15px;
+}
+
+.service_providing_image img:hover{
+  border-radius: 20px;
+  box-shadow: 2px 20px 18px rgb(133, 76, 76), -2px -4px 18px rgb(133, 76, 76);
+}
+
+.fig_caption{
+    font-size: 32px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.new_letter{
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    background-color: rgb(97, 97, 230);
+}
+
+.new_letter label{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 70px;
+    align-items: center;
+    position: absolute;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.new_letter #email{
+    height: 55px;
+    width: 65%;
+    padding-left: 15px;
+    margin-top: 90px;
+    font-size: 25px;
+    margin-left: 70px;
+}
+
+.new_letter #l_u_submit_button{
+    width: 150px;
+    height: 59px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(250, 8, 8);
+}
+
+footer p#connection{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.connection_tabs{
+    height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+div.connection_tabs a{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.connection_tabs i{
+    padding: 8px;
+    font-size: 50px;
+    
+}
+
+.connection_tabs i:hover{
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(226, 221, 221), -1px -1px 5px rgb(221, 201, 221);
+}
+
+.links_address_know_to_me{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.quick_links p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: rgb(78, 78, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+ width: 230px;
+ margin-top: 15px;
+ margin-left: 30px;
+}
+
+.quick_links a, .contactus_links a ,p{
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.contactus_links{
+  width: 400px;
+   
+} 
+
+.contactus_links p#contact{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(78, 78, 231);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.footer{
+    height: 150px;
+    background-color: rgb(46, 42, 42);
+}   
+
+.footer p{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer a{
+    position: relative;
+    font-size: 20px;
+    top: 50px;
+    left: 320px;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: gray;
+}
+
+
